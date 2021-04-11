@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Biometrics</string>
+    <string name="login_with_fingerprint">Login with fingerprint</string>
+    <string name="use_your_fingerprint_to_follow_batman_s_adventure">Use your fingerprint to follow BATMAN\'s adventure</string>
+</resources>
