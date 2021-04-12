@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import defdeveu.lab.android.biometrics.util.FingerprintExtensions.canAuthenticateWithFingerprint
 import defdeveu.lab.android.biometrics.util.FingerprintExtensions.startAuth
 import kotlinx.android.synthetic.main.activity_biometric.*
 
@@ -24,10 +23,5 @@ class BiometricActivity : AppCompatActivity() {
         }
 
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-    }
-
-    override fun onResume() {
-        super.onResume()
-        button.isEnabled = canAuthenticateWithFingerprint()
     }
 }

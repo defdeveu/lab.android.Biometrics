@@ -38,10 +38,4 @@ object FingerprintExtensions {
                         .build()
         )
     }
-
-    fun AppCompatActivity.canAuthenticateWithFingerprint(): Boolean{
-        val fingerprintManager = getSystemService(Context.FINGERPRINT_SERVICE) as FingerprintManager
-
-        return fingerprintManager.isHardwareDetected
-    }
 }
