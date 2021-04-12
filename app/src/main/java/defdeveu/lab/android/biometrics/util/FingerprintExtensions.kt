@@ -1,11 +1,8 @@
 package defdeveu.lab.android.biometrics.util
 
-import android.content.Context
-import android.hardware.fingerprint.FingerprintManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.biometric.BiometricPrompt
 import androidx.core.content.ContextCompat
-
 
 object FingerprintExtensions {
     fun AppCompatActivity.startAuth(success: () -> Unit, failed: (message: String) -> Unit){
