@@ -11,6 +11,7 @@
         android:theme="@style/Theme.Biometric">
         <activity
             android:name="defdeveu.lab.android.biometrics.BiometricActivity"
+            android:exported="true"
             android:windowSoftInputMode="adjustResize"
             android:screenOrientation="portrait">
             <intent-filter>
